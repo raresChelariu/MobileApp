@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_newsfeed"
+        android:title="Newsfeed"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/nav_insDashboard"
+        android:title="Institution Dashboard"
+        android:icon="@drawable/institution"/>
+
+    <item android:id="@+id/nav_accDashboard"
+        android:title="Account Dashboard"
+        android:icon="@drawable/account"/>
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/yourAccountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your account"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="145dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <Button
+        android:id="@+id/buttonModify"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="350dp"
+        android:text="MODIFY YOUR ACCOUNT" />
+
+    <TextView
+        android:id="@+id/insertUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/yourAccountTextView"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/insertEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/insertPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp" />
+
+</RelativeLayout>

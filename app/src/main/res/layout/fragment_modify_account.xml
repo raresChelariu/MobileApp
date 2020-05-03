@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="338dp"
+    android:layout_height="630dp"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:layout_marginTop="50dp"
+    android:background="#231F1F"
+    android:orientation="vertical">
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:shadowColor="@color/Grey"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:text="EMAIL"
+        android:textColor="#f5f5f5"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/modify_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:shadowColor="@color/Grey"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:text="OLD PASSWORD"
+        android:textColor="#f5f5f5"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/old_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:hint="Enter your old password"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:shadowColor="@color/Grey"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:text="NEW PASSWORD"
+        android:textColor="#f5f5f5"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:hint="Confirm your new password" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:shadowColor="@color/Grey"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:text="NEW FIRST NAME"
+        android:textColor="#f5f5f5"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/new_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:hint="Enter your new first name"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:shadowColor="@color/Grey"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="0.01"
+        android:text="NEW LAST NAME"
+        android:textColor="#f5f5f5"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/new_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:hint="Enter your new last name"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/change_account"
+        android:layout_width="280dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="CHANGE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
